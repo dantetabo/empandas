@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+    text-decoration: none;
+    list-style: none;
+    background-position: cover;
+    font-family: 'Comfortaa', cursive;
+}
+
+@import "variable";
+
+/* NAV */
+.nav {
+    background-color: map-get($colores, 1);
+    &__logo {
+        img {
+            width: 150px;
+        }
+    }
+}
+
+/* INDEX */
+.contenedor__pages {
+    background-color: map-get($colores, 4);
+    &__fotos {
+        filter: grayscale(100%)
+    }
+    &__fotos:hover {
+        filter: grayscale(0%)
+    }
+   
+
+    &__boton:hover {
+        color: map-get($colores , 3);
+        background-color: map-get($colores , 3);
+    }
+}
+.contenedor__eslogan{
+    background-color: map-get($colores, 3);
+    color: map-get($colores, 1 );
+}
+
+.footer__index{
+    background-color: map-get($colores, 2);
+    h6 {
+        color: map-get($colores , 4);
+    }
+}
+
+/* PROPIEDADES PAGES */
+.body__pages{
+    background-color: map-get($colores , 1 );
+}
+
+.header2 {
+    background-color: map-get($colores , 3);
+    img {
+        width: 150px;
+    }
+}
+
+.footer__pages {
+    background-color: map-get($colores , 3);
+    h6 {
+        color: map-get($colores , 4);
+    }
+}
+
+/* PAGE "CONCATCO" */
+.form__bg {
+    background-color: map-get($colores , 1);
+}
+
+/* PAGE "MENÚ" */
+
+.span__menu {
+    background-color: map-get($colores , terciario )
+}
+
+.foto__empcarne {
+    @include tamañofoto;
+    border-radius: 5px;
+
+}
+
+.foto__empverdura {
+    @include tamañofoto;
+    border-radius: 5px;
+}
+
+.foto__emppollo {
+    @include tamañofoto;
+    border-radius: 5px;
+}
+
+/* PAGE "NOSOTROS" */
+
+.foto__historia {
+    @include tamañofoto;
+    border-radius: 5px;
+}
+
+/* PAGE "SUCURSAL" */
+
+.foto__sucursal {
+    @include tamañofoto;
+    border-radius: 5px;
+}

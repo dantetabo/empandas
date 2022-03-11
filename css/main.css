@@ -1,0 +1,113 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: none;
+          box-sizing: none;
+  text-decoration: none;
+  list-style: none;
+  background-position: cover;
+  font-family: 'Comfortaa', cursive;
+}
+
+/* NAV */
+.nav {
+  background-color: #bd3639;
+}
+
+.nav__logo img {
+  width: 150px;
+}
+
+/* INDEX */
+.contenedor__pages {
+  background-color: black;
+}
+
+.contenedor__pages__fotos {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.contenedor__pages__fotos:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.contenedor__pages__boton:hover {
+  color: white;
+  background-color: white;
+}
+
+.contenedor__eslogan {
+  background-color: white;
+  color: #bd3639;
+}
+
+.footer__index {
+  background-color: #892729;
+}
+
+.footer__index h6 {
+  color: black;
+}
+
+/* PROPIEDADES PAGES */
+.body__pages {
+  background-color: #bd3639;
+}
+
+.header2 {
+  background-color: white;
+}
+
+.header2 img {
+  width: 150px;
+}
+
+.footer__pages {
+  background-color: white;
+}
+
+.footer__pages h6 {
+  color: black;
+}
+
+/* PAGE "CONCATCO" */
+.form__bg {
+  background-color: #bd3639;
+}
+
+/* PAGE "MENÚ" */
+.foto__empcarne {
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.foto__empverdura {
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.foto__emppollo {
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* PAGE "NOSOTROS" */
+.foto__historia {
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* PAGE "SUCURSAL" */
+.foto__sucursal {
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=main.css.map */
